@@ -1,2 +1,4 @@
 Use following command to start development.
-#nodemon src/app.js -e js,hbs
+```
+nodemon src/app.js -e js,hbs
+```
