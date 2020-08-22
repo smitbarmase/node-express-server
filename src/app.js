@@ -30,8 +30,13 @@ app.get('/about', (req, res) => {
 // Route content and stuff.
 app.get('/getjson', (req, res) => {
   res.send({
-    'data': 'Some data here. You can even use HTML in res.send()'
+    'data': 'Some data here.'
   });
+});
+
+// Route when address does not match.
+app.get('*', (req, res) => {
+  res.send('404 not found.');
 });
 
 app.listen(3000, () => {
