@@ -1,4 +1,11 @@
-Use following command to start development.
+Use following command to start development server.
+
 ```
-nodemon src/app.js -e js,hbs
+yarn dev
+```
+
+or use following in production server.
+
+```
+yarn start
 ```
